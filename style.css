@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-main-image{
+    background-image:url(https://picsum.photos/750/750?grayscale);
+    background-size: cover;
+    min-height: 50vh;
+    background-position: center;
+    text-shadow: 1px 1px 5px black;
+}
+
+.bg-second{
+    background-color: rgb(35, 31, 32);
+    min-height: 30vh;
+    font-size: 2em;
+    text-shadow: 1px 1px 20px grey;
+}
+
+.bg-third{
+    min-height: 50vh;
+}
